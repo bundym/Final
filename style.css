@@ -41,20 +41,16 @@
   }
   .task-input{
     height: 52px;
-    padding: 0 px;
+    padding: 10px;
     position: relative;
   }
-  .task-input img{
-    top: 50%;
-    position: absolute;
-    transform: translate(17px, -50%);
-  }
+ 
   .task-input input{
     height: 100%;
     width: 100%;
     outline: none;
     font-size: 18px;
-    border-radius: 5px;
+    border-radius: px;
     padding: 0 20px 0 20px;
     border: 1px solid #999;
   }
@@ -93,7 +89,7 @@
     outline: none;
     color: #fff;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 10px;
     padding: 7px 13px;
     border-radius: 4px;
     letter-spacing: 0.3px;
@@ -118,13 +114,13 @@
     max-height: 300px;
   }
   .task-box {
-    width: 80%;
+    width: 100%;
   }
   .task-box {
-    background: #f1f1f1;
-    border-radius: 25px;
-    background: #fefefe;
-    border-radius: 25px;
+    background: #d5d5fc;
+    border-radius: 1px;
+    background: #d7d7d7;
+    border-radius: 2px;
 }
 
   .task-box .task{
@@ -172,20 +168,9 @@
     border-radius: 4px;
     transform: scale(0);
     transform-origin: top right;
-    box-shadow: 0 0 6px rgba(0,0,0,0.15);
     transition: transform 0.2s ease;
   }
-  .task-box .task:last-child .task-menu{
-    bottom: 0;
-    transform-origin: bottom right;
-  }
-  .task-box .task:first-child .task-menu{
-    bottom: -65px;
-    transform-origin: top right;
-  }
-  .task-menu.show{
-    transform: scale(1);
-  }
+ 
   .task-menu li{
     height: 25px;
     font-size: 16px;
